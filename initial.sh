@@ -16,13 +16,17 @@ brew cask install the-unarchiver
 brew cask install atom
 brew cask install vlc
 brew cask install teamviewer-quicksupport
+brew cask install opera
+brew cask install google-chrome
 brew cleanup
 # download packages is better than cask
 open https://dl.google.com/drive-file-stream/googledrivefilestream.dmg
 open https://zoom.us/client/latest/Zoom.pkg
 # drivers for printers
-open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/10065530/BHC3100PPSMacOS109_150MU.dmg
+open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201904/23123119/BHC3100PPSMacOS1010_160MU.dmg
 open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/27031742/BHC554ePSMacOS109_540MU.dmg
-open https://ftp.hp.com/pub/softlib/software12/HP_Quick_Start/osx/Applications/HP_Easy_Start.app.zip
 # MS Office
 open https://drive.google.com/open?id=1nsNBvFpnBiezkEf28Ke3nHI0-ntjDWqO
+# CUPS Printer Interface Enable
+cupsctl WebInterface=yes
+open http://localhost:631/printers/
