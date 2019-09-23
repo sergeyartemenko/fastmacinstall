@@ -26,7 +26,7 @@ open https://zoom.us/client/latest/Zoom.pkg
 open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201904/23123119/BHC3100PPSMacOS1010_160MU.dmg
 open https://o.cses.konicaminolta.com/file/Default.aspx?FilePath=DL/201606/27031742/BHC554ePSMacOS109_540MU.dmg
 # MS Office
-open https://drive.google.com/open?id=1nsNBvFpnBiezkEf28Ke3nHI0-ntjDWqO
+open https://drive.google.com/file/d/17YaWGKM7HN618WWVSeIUxxqZEs0cwKRg
 # CUPS Printer Interface Enable
 cupsctl WebInterface=yes
 open http://localhost:631/printers/
